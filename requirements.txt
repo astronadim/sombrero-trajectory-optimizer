@@ -1,0 +1,13 @@
+# Core scientific computing
+numpy>=1.24
+scipy>=1.10
+pandas>=1.5
+
+# Neural network (CPU-only sufficient for this application)
+torch>=2.0
+
+# Plotting
+matplotlib>=3.6
+
+# Excel I/O (for artifact export)
+openpyxl>=3.0

@@ -1,0 +1,56 @@
+{
+  "simulation": {
+    "total_simulation_time_thrust_phase": 141912000,
+    "rtol": 1e-5,
+    "atol": 1e-5,
+    "enable_jga": true
+  },
+  "neuro": {
+    "activation_name": "tanh",
+    "n_hidden_layers": 0,
+    "n_neurons_per_layer": 20
+  },
+  "evolution": {
+    "population_size": 16,
+    "generations": 5000,
+    "mutation_rate": 0.05,
+    "mutation_std_dev": 0.05,
+    "tournament_k": 2,
+    "seed": 42
+  },
+  "init": {
+    "init_mode": "warm",
+    "warm_start_chromosome_path": "configs/best_chromosome_jga.json",
+    "warm_start_mix_fraction": 1
+  },
+  "initial_conditions": {
+    "fix_C3": true,
+    "fixed_C3": 0.0,
+    "fix_launch_angle": true,
+    "fixed_launch_angle_rad": 0.0,
+    "fix_mu": true,
+    "fixed_mu": 0.59
+  },
+  "electric_propulsion": {
+    "Isp": 6000.0,
+    "efficiency": 0.75
+  },
+  "launch_intervals": {
+    "C3_interval": [10.0, 40.0],
+    "launch_angle_interval_deg": [0.0, -10.0],
+    "mu_propellant_plus_payload_interval": [0.5, 0.6]
+  },
+  "fitness": {
+    "R_SolarOBerth_Design": 0.3,
+    "R_SolarOberth_LowerBound": 0.25,
+    "R_SolarOberth_UpperBound": 0.7,
+    "t_mission_target": 788940000,
+    "m_payload_target": 1000.0
+  },
+  "output": {
+    "output_dir": "outputs",
+    "save_plots": true,
+    "save_excel": true,
+    "run_id": null
+  }
+}

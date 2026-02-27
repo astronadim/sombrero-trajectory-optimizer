@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+title: "SOMBRERO: Solar Oberth Maneuver By Realization of EvolutionaRy Optimization"
+message: >-
+  If you use this software, please cite the accompanying paper
+  (preferred) and/or the software repository.
+type: software
+license: MIT
+version: 1.0.0-pre
+date-released: "2026-02-27"
+repository-code: "https://github.com/astronadim/sombrero-trajectory-optimizer"
+authors:
+  - family-names: Maraqten
+    given-names: Nadim
+    affiliation: "University of Stuttgart, Institute of Space Systems"
+    orcid: "https://orcid.org/0009-0008-4080-6304"
+  - family-names: van Lynden
+    given-names: Willem
+    affiliation: "Aliena Pte Ltd."
+    orcid: "https://orcid.org/0009-0000-4350-0804"
+  - family-names: Gómez de Olea Ballester
+    given-names: Carlos
+    affiliation: "Technical University of Munich"
+    orcid: "https://orcid.org/0009-0007-3343-2001"
+  - family-names: Hein
+    given-names: Andreas M.
+    affiliation: "University of Luxembourg"
+    orcid: "https://orcid.org/0000-0003-1763-6892"
+keywords:
+  - solar electric propulsion
+  - solar Oberth maneuver
+  - evolutionary optimization
+  - neurocontroller
+  - interstellar precursor
+  - trajectory optimization
+  - high-temperature photovoltaics
+preferred-citation:
+  type: article
+  title: >-
+    High-temperature photovoltaics for Solar Electric Propulsion Oberth
+    Maneuver: ton-class payload feasibility for 200 AU interstellar-precursor
+    missions
+  authors:
+    - family-names: Maraqten
+      given-names: Nadim
+    - family-names: van Lynden
+      given-names: Willem
+    - family-names: Gómez de Olea Ballester
+      given-names: Carlos
+    - family-names: Hein
+      given-names: Andreas M.
+  year: 2026
+  status: submitted
